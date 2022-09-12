@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- *main: serves as an entry point for the program
+ *main - serves as an entry point for the program
  *Description: function returns EOF if an error occurs
  *Return: By default returns 0 if no erros otherwise returns non-zero value.
  */
