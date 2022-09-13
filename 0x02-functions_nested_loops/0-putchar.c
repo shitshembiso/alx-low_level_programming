@@ -1,18 +1,17 @@
 #include <stdio.h>
 
 /**
- * C program to demonstrate putchar() method
- * Return: by default returns 0
- * Description: program prints _putchar, followed by a new line
+ *main - prints _putchar, followed by a new line
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
 	char text[10] = "_putchar";
 	int i = 0;
-	for (i = 0; i < 9; i++);
-{
-	_putchar(test[i]);
-}
+	for (i = 0; i < 8; i++);
+	{
+		_putchar(test[i]);
+	}
 		_putchar('\n');
 		return (0);
 }	
