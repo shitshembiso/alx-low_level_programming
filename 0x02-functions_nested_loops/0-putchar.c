@@ -1,17 +1,37 @@
-#include <stdio.h>
+#include "_putchar.h"
 
 /**
- *main - prints _putchar, followed by a new line
- *Return: Always 0 (Success)
+ *
+ *main - Prints _putchar
+ *
+ *
+ *
+ *Returns: Always 0 (Success)
+ *
  */
+
 int main(void)
+
 {
-	char text[10] = "_putchar";
-	int i = 0;
-	for (i = 0; i < 8; i++);
-	{
-		_putchar(test[i]);
-	}
-		_putchar('\n');
-		return (0);
-}	
+
+		_putchar('_');
+
+			_putchar('p');
+
+				_putchar('u');
+
+					_putchar('t');
+
+						_putchar('c');
+
+							_putchar('h');
+
+								_putchar('a');
+
+									_putchar('r');
+
+										_putchar('\n');
+
+											return (0);
+
+}
