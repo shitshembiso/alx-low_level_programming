@@ -1,37 +1,18 @@
-#include <main.h>
+#include <unistd.h>
+#include "main.h"
 
 /**
- *
- *main - Prints _putchar
- *
- *
- *
- *Returns: Always 0 (Success)
- *
+ * main - entry point
+ * Description: Print character using _putchar
+ * Returns: Always 0 (Success)
  */
-
 int main(void)
-
 {
+	char ch_arr[8] = "_putchar";
+	int i;
 
-		_putchar('_');
-
-			_putchar('p');
-
-				_putchar('u');
-
-					_putchar('t');
-
-						_putchar('c');
-
-							_putchar('h');
-
-								_putchar('a');
-
-									_putchar('r');
-
-										_putchar('\n');
-
-											return (0);
-
-}
+	for (i = 0; i <= 7; i++)
+	{
+		_putchar(ch_arr[i]);
+	}
+	_putchar('\n');
